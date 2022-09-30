@@ -24,5 +24,3 @@ const basicOp = ((operation, value1, value2) => {
         default:    return "No supported operation passed in";
     }
 })
-
-console.log(basicOp('/',1,2))
