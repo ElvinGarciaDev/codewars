@@ -4,6 +4,14 @@
         "iosfwd": "cpp",
         "string": "cpp",
         "type_traits": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "__debug": "cpp",
+        "exception": "cpp",
+        "functional": "cpp",
+        "memory": "cpp",
+        "new": "cpp",
+        "optional": "cpp",
+        "stdexcept": "cpp",
+        "typeinfo": "cpp"
     }
 }
