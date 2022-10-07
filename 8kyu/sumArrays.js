@@ -17,4 +17,4 @@ You cannot assume the size of the array.
 You can assume that you do get an array and if the array is empty, return 0.
 */
 
-const sum = numbers => numbers.length <= 0 ? 0 : numbers.reduce((previous, current) => previous += current, 0)
+const sum = numbers => numbers.reduce((previous, current) => previous += current, 0)
