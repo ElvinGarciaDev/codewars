@@ -5,5 +5,5 @@ Return your answer as a number.
 */
 
 
-// The reduce method can be used to find the sum of an array, The Number method can make sure any strings get converted into numbers
+// The reduce method can be used to find the sum of an array, The Number object can make sure any strings get converted into numbers
 let sumMix = x => x.reduce((previous, current) => previous + Number(current), 0)
