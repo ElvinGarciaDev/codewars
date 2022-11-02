@@ -29,5 +29,3 @@ function getMiddle(s)
     return letter
 
 }
-
-console.log(getMiddle("testing"))
