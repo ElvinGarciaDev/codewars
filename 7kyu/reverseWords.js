@@ -16,5 +16,3 @@ function reverseWords(str) {
 
     return reversedStr.split(" ").reverse().join(" ")
 }
-
-reverseWords("double  spaced  words")
