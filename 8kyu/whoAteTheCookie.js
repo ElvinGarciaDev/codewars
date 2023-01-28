@@ -15,5 +15,3 @@ function cookie(x){
         return "Who ate the last cookie? It was the dog!"
     }
 }
-
-console.log(cookie(2.5))
