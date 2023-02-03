@@ -13,3 +13,5 @@ Examples
 25  =>  true
 26  =>  false
 */
+
+const isSquare = n => Math.sqrt(n) % 1 != 0 ? false : true
