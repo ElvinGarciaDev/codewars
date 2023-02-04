@@ -12,4 +12,16 @@ longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
 
 function longest(s1, s2) {
     // your code
+    let arr = []
+    let str = s1.concat(s2).split("").sort().join("")
+
+    for(let i = 0; i < str.length; i++) {
+        if(!arr.includes(str[i])) {
+            arr.push(str[i])
+        }
+    }
+
+    return arr.join("")
 }
+
+longest("eelvin", "ba")
