@@ -30,5 +30,3 @@ const getSum = ((a,b) => {
 
     return sum
 })
-
-console.log(getSum(-1,-1))
