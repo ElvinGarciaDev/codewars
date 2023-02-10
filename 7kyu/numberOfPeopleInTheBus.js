@@ -13,4 +13,12 @@ The second value in the first pair in the array is 0, since the bus is empty in 
 */
 var number = function(busStops){
     // Good Luck!
+    let totalBordedBus = 0;
+    let totalLeftBus = 0
+
+    for(let i = 0; i < busStops.length; i++) {
+        totalBordedBus += busStops[i][0]
+        totalLeftBus += busStops[i][1]
+    }
+    return totalBordedBus - totalLeftBus
 }
