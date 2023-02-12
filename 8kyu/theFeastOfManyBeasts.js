@@ -14,5 +14,3 @@ function feast(beast, dish) {
         return false
     }
 }
-
-console.log(feast("great blue heron", "garlic naan"))
