@@ -11,6 +11,11 @@ remove("Hi! Hi!") == "Hi! Hi"
 remove("Hi") == "Hi"
 */
 
-function remove (string) {
+function remove(string) {
   //coding and coding....
+  let arr = string.split("");
+  if (arr[arr.length - 1] == "!") {
+    arr.pop();
+  }
+  return arr.join("");
 }
