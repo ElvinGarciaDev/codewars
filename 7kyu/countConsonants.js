@@ -17,5 +17,3 @@ function consonantCount(str) {
 
     return consonantCount
 }
-
-console.log(consonantCount("h^$&^#$&^elLo world"))
