@@ -10,12 +10,12 @@ Example:
 var greet = function(name) {
     let nameFormat = ''
 
-    str += name[0].toUpperCase()
+    nameFormat += name[0].toUpperCase()
 
     for(let i = 1; i < name.length; i++) {
         nameFormat += name[i].toLowerCase()
     }
 
-    return `Hello ${nameFormat}`
+    return `Hello ${nameFormat}!`
 
 };
