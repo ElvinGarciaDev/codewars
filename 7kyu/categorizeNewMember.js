@@ -15,5 +15,16 @@ output = ["Open", "Open", "Senior", "Open", "Open", "Senior"]
 */
 
 function openOrSenior(data){
-  // ...
+  
+    let categorie = []
+
+    data.forEach((item) => {
+        if(item[0] >= 55 && item[1] > 7) {
+            categorie.push("Senior")
+        }else {
+            categorie.push("Open")
+        }
+    })
+
+    return categorie
 }
