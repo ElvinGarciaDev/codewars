@@ -5,5 +5,8 @@ Note: only positive integers will be tested.
 */
 
 function sumOfIntegersInString(s){
-    return // what the function name says
+    let arr = s.split(/([^0-9])/g)
+
+    return arr.map(item => parseInt(item)).filter(x => parseInt(x)).reduce((acc, current) => acc + current, 0)
+
 }
