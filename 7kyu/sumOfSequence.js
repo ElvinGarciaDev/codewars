@@ -30,5 +30,4 @@ const sequenceSum = (begin, end, step) => {
 
     return sum
 
-
 };
