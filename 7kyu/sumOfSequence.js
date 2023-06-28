@@ -32,5 +32,3 @@ const sequenceSum = (begin, end, step) => {
 
 
 };
-
-console.log(sequenceSum(2,2,2))
