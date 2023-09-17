@@ -6,6 +6,5 @@ For example (Input --> Output)
 "Yes" --> "Yes?" 
 "No?" --> "No?"
 */
-function ensureQuestion(s) {
-  // Code here
-}
+
+const ensureQuestion = s => s.endswith("?") ? s : s + "?"
