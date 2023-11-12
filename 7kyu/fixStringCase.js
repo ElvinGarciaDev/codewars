@@ -19,5 +19,3 @@ const solve = s => {
 
     return under >= upper ? s.toLowerCase() : s.toUpperCase()
 }
-
-console.log(solve("coDe"))
