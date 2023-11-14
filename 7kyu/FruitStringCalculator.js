@@ -21,5 +21,3 @@ function calculate(string) {
     }
     return +string.split(' ')[2] + +string.split(' ')[6]
   }
-
-console.log(calculate("Panda has 48 apples and loses 4"))
