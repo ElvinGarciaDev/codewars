@@ -12,5 +12,18 @@ difference = [a, e, g, j, k]
 */
 
 function diff(a, b){
-    //your code here
+    let arr = [...a, ...b].sort();
+    let obj = {};
+
+    arr.forEach(item => {
+        if (a.includes(item) && b.includes(item)) {
+            // Item is present in both arrays
+        } else {
+            // Item is present in one array but not in the other
+            obj[item] = true;
+        }
+    });
+
+    const difference = Object.keys(obj).sort();
+    return difference
 }
